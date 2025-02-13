@@ -1,0 +1,29 @@
+// Ejemplo 1: Calcular el costo de un terreno, a partir de sus dimensiones 
+// y el costo por metro cuadrado
+// 
+1.  Inicio
+2.  // Declaración de variables
+3.  largo_terreno, d[0-n]      // Almacena el largo del terreno
+4.  ancho_terreno, d[0-n]      // Almacena el ancho del terreno
+5.  costo_metro, d[0-n]        // Almacena el costo por metro cuadrado
+6.  area_terreno, d[0-n]       // Almacena el área total del terreno
+7.  costo_total, d[0-n]        // Almacena el costo total del terreno
+8.  
+9.  // Solicitar entrada de datos
+10. Escribir "Ingrese el largo del terreno (en metros):"
+11. Leer largo_terreno
+12. Escribir "Ingrese el ancho del terreno (en metros):"
+13. Leer ancho_terreno
+14. Escribir "Ingrese el costo por metro cuadrado:"
+15. Leer costo_metro
+16.  
+17. // Cálculo del área del terreno
+18. area_terreno <-- largo_terreno * ancho_terreno
+19.  
+20. // Cálculo del costo total del terreno
+21. costo_total <-- area_terreno * costo_metro
+22.  
+23. // Mostrar los resultados
+24. Escribir "El área del terreno es: " + area_terreno + " metros cuadrados"
+25. Escribir "El costo total del terreno es: $" + costo_total
+26. Fin
